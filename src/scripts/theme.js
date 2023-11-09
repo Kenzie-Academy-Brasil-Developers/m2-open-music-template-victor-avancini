@@ -1,4 +1,4 @@
-const darkMode = () =>{
+export const darkMode = () =>{
     const headerBtn = document.querySelector(".header__btn")
 
     headerBtn.addEventListener("click", () => {
@@ -11,7 +11,7 @@ const darkMode = () =>{
     })
 }
 
-const verifyMode = () => {
+export const verifyMode = () => {
     const darkInfo = JSON.parse(localStorage.getItem("@dark-mode"))
     const headerBtn = document.querySelector(".header__btn")
     const html = document.querySelector("html")
