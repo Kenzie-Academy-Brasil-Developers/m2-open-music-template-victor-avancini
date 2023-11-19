@@ -223,7 +223,7 @@
 }
 
 .drop {
-  animation: dropDown 0.7 ease-in-out;
+  animation: dropDown 0.7s ease-in-out;
 }
 
 @keyframes slideIn {
